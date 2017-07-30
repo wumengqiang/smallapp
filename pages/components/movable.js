@@ -6,83 +6,83 @@ Page({
    */
   data: {
     x: 20,
-    y: 20
+    y: 20,
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
+  onLoad(options) {
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
-  onReady: function () {
+  onReady() {
     setInterval(() => {
       this.x += 1;
-      this.y +=1;
-    }, 10)
+      this.y += 1;
+    }, 10);
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
-  onShow: function () {
-  
+  onShow() {
+
   },
 
   /**
    * 生命周期函数--监听页面隐藏
    */
-  onHide: function () {
-  
+  onHide() {
+
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
-  onUnload: function () {
-  
+  onUnload() {
+
   },
 
   /**
    * 页面相关事件处理函数--监听用户下拉动作
    */
-  onPullDownRefresh: function () {
-    console.log("你下拉了");
+  onPullDownRefresh() {
+    console.log('你下拉了');
   },
 
   /**
    * 页面上拉触底事件的处理函数
    */
-  onReachBottom: function () {
-  
+  onReachBottom() {
+
   },
 
   /**
    * 用户点击右上角分享
    */
-  onShareAppMessage: function () {
-  
+  onShareAppMessage() {
+
   },
 
-  touchmove(e){
+  touchmove(e) {
     console.log(e);
   },
 
-  touchend(e){
+  touchend(e) {
     // setTimeout(this.reset, 500)
     // console.log("touchend", e);
     // console.log(e.target.x);
     // this.x = this.y = 0;
     this.setData({
       x: 20,
-      y: 20 
-    })
+      y: 20,
+    });
   },
 
-  reset(){
+  reset() {
     // this.query = this.query || wx.createSelectorQuery();
     // this.query.select(".movable-view").fields({
     //   x: true,
@@ -93,13 +93,13 @@ Page({
     // })
   },
 
-  tap(){
-    var x = 20
-    if(this.data.x === 20) {
+  tap() {
+    let x = 20;
+    if (this.data.x === 20) {
       x = 100;
     }
     this.setData({
-      x: x
-    })
-  }
-})
+      x,
+    });
+  },
+});

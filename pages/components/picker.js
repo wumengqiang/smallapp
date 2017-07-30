@@ -5,39 +5,39 @@ Page({
     objectArray: [
       {
         id: 0,
-        name: '美国'
+        name: '美国',
       },
       {
         id: 1,
-        name: '中国'
+        name: '中国',
       },
       {
         id: 2,
-        name: '巴西'
+        name: '巴西',
       },
       {
         id: 3,
-        name: '日本'
-      }
+        name: '日本',
+      },
     ],
     index: 0,
     date: '2016-09-01',
-    time: '12:01'
+    time: '12:01',
   },
-  bindPickerChange: function (e) {
-    console.log('picker发送选择改变，携带值为', e.detail.value)
+  bindPickerChange(e) {
+    console.log('picker发送选择改变，携带值为', e.detail.value);
     this.setData({
-      index: e.detail.value
-    })
+      index: e.detail.value,
+    });
   },
-  bindDateChange: function (e) {
+  bindDateChange(e) {
     this.setData({
-      date: e.detail.value
-    })
+      date: e.detail.value,
+    });
   },
-  bindTimeChange: function (e) {
+  bindTimeChange(e) {
     this.setData({
-      time: e.detail.value
-    })
-  }
-})
+      time: e.detail.value,
+    });
+  },
+});
