@@ -1,0 +1,18 @@
+/* movable.wxss */
+
+.movable-area {
+  height: 500rpx;
+  width: 500rpx;
+  background: yellow;
+}
+
+.movable-view {
+  height: 100rpx;
+  width: 100rpx;
+}
+
+.square {
+  height: 100rpx;
+  width: 100rpx;
+  background: white;
+}

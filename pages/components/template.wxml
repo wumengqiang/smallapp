@@ -1,0 +1,6 @@
+<!--template.wxml-->
+<import src="templateItem.wxml" />
+
+<button>{{btnText || '按钮'}}</button>
+<template is="temp" data="{{...item}}"></template>
+<template is="msgItem" data="{{...hello}}"/>

@@ -1,0 +1,21 @@
+<!--input.wxml-->
+
+<text class="code">{{demo.type}}</text>
+<input placeholder="text类型..." />
+<input placeholder="number类型..." type="number"/>
+<input placeholder="idcard类型..." type="idcard"/>
+<input placeholder="digit类型..." type="digit"/>
+
+
+<text class="code">{{demo.password}}</text>
+<input placeholder="非password..." />
+<input placeholder="password..." password="true"/>
+
+
+<text class="code">{{demo.confirm}}</text>
+
+<input placeholder="发送" confirm-type="send" />
+<input placeholder="搜索" confirm-type="search" />
+<input placeholder="下一个" confirm-type="next" />
+<input placeholder="前往" confirm-type="go" />
+<input placeholder="完成" confirm-type="done" />

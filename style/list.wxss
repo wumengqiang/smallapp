@@ -1,0 +1,19 @@
+/**list.wxss**/
+.list {
+  display: flex;
+  flex-direction : row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.list .list-item {
+  width:300rpx;
+  height:300rpx;
+  color:white;
+  background:#1AAD19;
+  margin:50rpx 0 0 50rpx;
+  line-height:300rpx;
+  text-align:center;
+  font-size:14px;
+  flex: 0 0 300rpx;
+}

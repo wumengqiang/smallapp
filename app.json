@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/components/components",
+    "pages/components/button",
+    "pages/components/template",
+    "pages/components/check",
+    "pages/components/input",
+    "pages/components/picker",
+    "pages/components/picker-view",
+    "pages/components/movable"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "DEMO",
+    "navigationBarTextStyle": "white"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

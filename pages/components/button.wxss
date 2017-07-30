@@ -1,0 +1,9 @@
+/* button.wxss */
+
+@import "../../style/code.wxss";
+
+.green {
+  background: #1AAD19;
+  transition: background 1s, color 1s;
+  color: white;
+}

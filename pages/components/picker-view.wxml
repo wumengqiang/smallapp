@@ -1,0 +1,17 @@
+<!--picker-view.wxml 省市县选择器-->
+
+<view class="address-pick">
+  <picker-view indicator-style="height: 50px;"  style="width: 100%; height: 300px;"  bindchange="pickerChange" value="{{value}}">
+    <picker-view-column>
+      <view style="line-height:50px" wx:key="{{item.id}}" wx:for="{{provinces}}">{{item.name}}</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view  style="line-height:50px"  wx:key="{{item.id}}" wx:for="{{cities}}">{{item.name}}</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view  style="line-height:50px"  wx:key="{{item.id}}" wx:for="{{counties}}">{{item.name}}</view>
+    </picker-view-column>
+  </picker-view>
+</view>
+
+

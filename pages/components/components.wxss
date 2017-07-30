@@ -1,0 +1,2 @@
+/* components.wxss */
+@import "../../style/list.wxss";

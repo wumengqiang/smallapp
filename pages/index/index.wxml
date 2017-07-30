@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="list">
+    <navigator class="list-item" url="/pages/{{item.id}}/{{item.id}}" wx:key="{{item.id}}" wx:for="{{demos}}">{{item.desc}}</navigator>
+  </view>
+</view>

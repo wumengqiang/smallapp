@@ -1,0 +1,10 @@
+<!--movable.wxml-->
+<view class="container">
+  <movable-area class="movable-area">
+    <movable-view bindtap="tap"  bindtouchend="touchend" bindtouchmove="touchmove"
+       class="movable-view" direction="all" inertia="false" 
+       x="{{x}}" y="{{y}}">
+        <view class="square"></view>
+    </movable-view>
+  </movable-area>
+</view>

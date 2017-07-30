@@ -1,0 +1,6 @@
+<!--check.wxml-->
+<checkbox-group bindchange="checkboxChange">
+  <label wx:for="{{options}}" wx:key="{{item.value}}">
+    <checkbox value="{{item.value}}" checked="{{item.checked}}" /> {{item.label}}
+  </label>
+</checkbox-group>

@@ -1,0 +1,20 @@
+<!--button.wxml-->
+<text class="code">{{codes.basic}}</text>
+<button>最简单button</button>
+
+<text class="code">{{codes.mini}}</text>
+<button size="mini">mini button</button>
+
+<text class="code">{{codes.loading}}</text>
+<button loading="true">loading</button>
+
+
+<text class="code">{{codes.disabled}}</text>
+<button disabled="true">disabled</button>
+
+<text class="code">{{codes.nohover}}</text>
+<button hover-class="none">无hover效果</button>
+
+
+<text class="code">{{codes.hover}}</text>
+<button hover-class="green" hover-stay-time="200">hover效果</button>
